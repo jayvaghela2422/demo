@@ -1,0 +1,87 @@
+.example-form {
+    min-width: 250px;
+    max-width: 650px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+.example-button-row {
+    text-align: end;
+}
+
+.example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+}
+.main {
+    border: 1px solid gray;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    .lableset {
+        display: block;
+        background: #fff;
+        width: 60px;
+        text-align: center;
+        position: absolute;
+        top: -11px;
+    }
+}
+
+// =================================================
+.example-container {
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.example-sidenav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.example-sidenav {
+    user-select: none;
+}
+.full-width {
+    width: 100%;
+}
+.menu-button {
+    transition: 300ms ease-in-out;
+    transform: rotate(0deg);
+}
+.menu-button.rotated {
+    transform: rotate(180deg);
+}
+.submenu {
+    overflow-y: hidden;
+    transition: transform 300ms ease;
+    transform: scaleY(0);
+    transform-origin: top;
+    padding-left: 30px;
+}
+.submenu.expanded {
+    transform: scaleY(1);
+}
+
+.position-input {
+    width: 32%;
+}
+.name-input {
+    width: 49%;
+}
+.sub-div {
+    display: flex;
+    justify-content: space-between;
+}
+.name-form-input {
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}

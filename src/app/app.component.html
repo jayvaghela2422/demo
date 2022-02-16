@@ -1,0 +1,115 @@
+<mat-toolbar color="primary" class="example-toolbar">
+  <h1 class="example-app-name">Menu Edit</h1>
+</mat-toolbar>
+
+<mat-sidenav-container class="example-container" autosize>
+  <div class="example-sidenav-content">
+    <form class="example-form">
+      <div class="name-form-input">
+        <div class="sub-div">
+          <div class="name-input">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="Name">
+            </mat-form-field>
+          </div>
+          <div class="name-input">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="Link">
+            </mat-form-field>
+          </div>
+        </div>
+        <mat-form-field class="example-full-width" appearance="outline">
+          <input matInput placeholder="Description">
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="outline">
+          <input matInput placeholder="Tooltip">
+        </mat-form-field>
+      </div>
+
+      <div class="main">
+        <mat-label class="lableset">Position</mat-label>
+        <div class="sub-div">
+          <div class="position-input">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-select value="parent">
+                <mat-option value="parent" aria-selected="true" selected> parent </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="position-input">
+
+            <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="Level">
+            </mat-form-field>
+          </div>
+          <div class="position-input">
+
+            <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="Position">
+            </mat-form-field>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <mat-label class="lableset">Icon</mat-label>
+        <div class="sub-div">
+          <div class="name-input">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-select value="Image">
+                <mat-option value="Image" aria-selected="true" selected> ImageLibary </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="name-input">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="Icon">
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="name-input">
+          <mat-form-field class="example-full-width" appearance="outline">
+            <input matInput placeholder="Class">
+          </mat-form-field>
+        </div>
+        <mat-form-field class="example-full-width" appearance="outline">
+          <input matInput placeholder="Style">
+        </mat-form-field>
+      </div>
+      <div class="main">
+        <mat-label class="lableset">History</mat-label>
+        <div class="sub-div">
+          <div class="name-input">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="Created_on">
+            </mat-form-field>
+          </div>
+          <div class="name-input">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="Created_by">
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="sub-div">
+          <div class="name-input">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="Updated_on">
+            </mat-form-field>
+          </div>
+          <div class="name-input">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="Updated_by">
+            </mat-form-field>
+          </div>
+        </div>
+      </div>
+      <div class="example-button-row">
+        <button mat-raised-button color="primary">Cancel</button>
+        <button mat-raised-button color="primary">Save</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer">
+    <mat-toolbar color="primary" class="example-toolbar">
+    </mat-toolbar>
+  </div>
+</mat-sidenav-container>
